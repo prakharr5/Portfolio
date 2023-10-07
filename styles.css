@@ -1,0 +1,97 @@
+/* Reset some default styles */
+body,
+h1,
+h2,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Define a container for content */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Style the header and navigation */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+/* ... */
+/* Add styles for the profile section */
+.profile {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Center content horizontally and vertically */
+  height: 100vh; /* Make the section cover the entire viewport height */
+}
+.profile img {
+  max-width: 100%;
+  height: auto;
+  width: 300px; /* Set a fixed width for the square image */
+  border-radius: 0; /* Make the image circular */
+  margin-right: 20px; /* Add space between image and text */
+}
+
+.profile-text {
+  flex-grow: 1; /* Allow the text to fill the remaining space */
+  text-align: center; /* Center-align the text */
+}
+/* ... */
+/* Add a wrapper for the content to enable flexbox */
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ensure the wrapper takes up the entire viewport height */
+}
+.profile-text h1 {
+  font-size: 2.5em; /* Increase the font size for a larger heading */
+}
+
+.profile-text p {
+  font-size: 1.5em; /* Increase the font size for the paragraph */
+}
+/* Set the content to grow and push the footer to the bottom */
+.container {
+  flex-grow: 1;
+}
+
+/* ... */
+/* Style the footer as needed */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+
+/* ... */
+
+/* Style other sections as needed */
+
+/* Add your custom styles for images, headings, and details in the projects section */
+
+/* Style the footer and social media links */
+
+.social-media a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+}
